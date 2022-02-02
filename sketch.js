@@ -11,12 +11,12 @@ var player, playerBase, playerArcher, board;
 var baseimage;
 
 function preload() {
-  backgroundImg = loadImage("./assets/background.png");
-  baseimage = loadImage("./assets/base.png");
-  playerimage = loadImage("./assets/player.png");
-  playerArcherimg = loadImage("./assets/playerArcher.png");
-  arrowimg = loadImage("./assets/arrow.png");
-  boardimg = loadImage("./assets/board.png");
+  backgroundImg = loadImage("background.png");
+  baseimage = loadImage("base.png");
+  playerimage = loadImage("player.png");
+  playerArcherimg = loadImage("playerArcher.png");
+  arrowimg = loadImage("arrow.png");
+  boardimg = loadImage("board.png");
 }
 
 function setup() {
