@@ -52,12 +52,12 @@ function draw() {
   //exibir a imagem da base do jogador usando a função image()
   image(playerimage, player.position.x, player.position.y, 50, 180);
   //image(playerArcherimg, playerArcher.position.x, playerArcher.position.y, 180, 150);
-  if(board.y > windowHeight-45){
+  /*if(board.y > windowHeight-45){
     board.velocityY = -5;
   }
   if(board.y < 45){
     board.velocityY = +5;
-  }
+  }*/
 
   // Title
   fill("#FFFF");
